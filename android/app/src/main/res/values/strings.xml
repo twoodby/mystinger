@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyStringerApp</string>
+    <string name="input_suggestion">Text to play with</string>
+    <string name="button_load">Load String</string>
+    <string name="button_flip">Flip Text</string>
+    <string name="button_crazy_camel">CrAzY CaMeL</string>
 </resources>
