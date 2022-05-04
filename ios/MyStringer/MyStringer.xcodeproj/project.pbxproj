@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA95E2E22822A86E00F9A5D2 /* Stringer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95E2E12822A86E00F9A5D2 /* Stringer.xcframework */; };
+		DAF536DB2821B88400660DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF536DA2821B88400660DFB /* AppDelegate.swift */; };
+		DAF536DD2821B88400660DFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF536DC2821B88400660DFB /* SceneDelegate.swift */; };
+		DAF536DF2821B88400660DFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF536DE2821B88400660DFB /* ViewController.swift */; };
+		DAF536E22821B88400660DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF536E02821B88400660DFB /* Main.storyboard */; };
+		DAF536E42821B88500660DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF536E32821B88500660DFB /* Assets.xcassets */; };
+		DAF536E72821B88500660DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF536E52821B88500660DFB /* LaunchScreen.storyboard */; };
+		DAF536F22821B88500660DFB /* MyStringerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF536F12821B88500660DFB /* MyStringerTests.swift */; };
+		DAF536FC2821B88500660DFB /* MyStringerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF536FB2821B88500660DFB /* MyStringerUITests.swift */; };
+		DAF536FE2821B88500660DFB /* MyStringerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF536FD2821B88500660DFB /* MyStringerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF536EE2821B88500660DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF536CF2821B88400660DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF536D62821B88400660DFB;
+			remoteInfo = MyStringer;
+		};
+		DAF536F82821B88500660DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF536CF2821B88400660DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF536D62821B88400660DFB;
+			remoteInfo = MyStringer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA95E2E12822A86E00F9A5D2 /* Stringer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Stringer.xcframework; path = ../../stringerclass/Stringer.xcframework; sourceTree = "<group>"; };
+		DAF536D72821B88400660DFB /* MyStringer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStringer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF536DA2821B88400660DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAF536DC2821B88400660DFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAF536DE2821B88400660DFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAF536E12821B88400660DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF536E32821B88500660DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF536E62821B88500660DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF536E82821B88500660DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF536ED2821B88500660DFB /* MyStringerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStringerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF536F12821B88500660DFB /* MyStringerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStringerTests.swift; sourceTree = "<group>"; };
+		DAF536F72821B88500660DFB /* MyStringerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStringerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF536FB2821B88500660DFB /* MyStringerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStringerUITests.swift; sourceTree = "<group>"; };
+		DAF536FD2821B88500660DFB /* MyStringerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStringerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF536D42821B88400660DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95E2E22822A86E00F9A5D2 /* Stringer.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF536EA2821B88500660DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF536F42821B88500660DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF536CE2821B88400660DFB = {
+			isa = PBXGroup;
+			children = (
+				DA95E2E12822A86E00F9A5D2 /* Stringer.xcframework */,
+				DAF536D92821B88400660DFB /* MyStringer */,
+				DAF536F02821B88500660DFB /* MyStringerTests */,
+				DAF536FA2821B88500660DFB /* MyStringerUITests */,
+				DAF536D82821B88400660DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF536D82821B88400660DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF536D72821B88400660DFB /* MyStringer.app */,
+				DAF536ED2821B88500660DFB /* MyStringerTests.xctest */,
+				DAF536F72821B88500660DFB /* MyStringerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF536D92821B88400660DFB /* MyStringer */ = {
+			isa = PBXGroup;
+			children = (
+				DAF536DA2821B88400660DFB /* AppDelegate.swift */,
+				DAF536DC2821B88400660DFB /* SceneDelegate.swift */,
+				DAF536DE2821B88400660DFB /* ViewController.swift */,
+				DAF536E02821B88400660DFB /* Main.storyboard */,
+				DAF536E32821B88500660DFB /* Assets.xcassets */,
+				DAF536E52821B88500660DFB /* LaunchScreen.storyboard */,
+				DAF536E82821B88500660DFB /* Info.plist */,
+			);
+			path = MyStringer;
+			sourceTree = "<group>";
+		};
+		DAF536F02821B88500660DFB /* MyStringerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF536F12821B88500660DFB /* MyStringerTests.swift */,
+			);
+			path = MyStringerTests;
+			sourceTree = "<group>";
+		};
+		DAF536FA2821B88500660DFB /* MyStringerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF536FB2821B88500660DFB /* MyStringerUITests.swift */,
+				DAF536FD2821B88500660DFB /* MyStringerUITestsLaunchTests.swift */,
+			);
+			path = MyStringerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF536D62821B88400660DFB /* MyStringer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF537012821B88500660DFB /* Build configuration list for PBXNativeTarget "MyStringer" */;
+			buildPhases = (
+				DAF536D32821B88400660DFB /* Sources */,
+				DAF536D42821B88400660DFB /* Frameworks */,
+				DAF536D52821B88400660DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStringer;
+			productName = MyStringer;
+			productReference = DAF536D72821B88400660DFB /* MyStringer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF536EC2821B88500660DFB /* MyStringerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF537042821B88500660DFB /* Build configuration list for PBXNativeTarget "MyStringerTests" */;
+			buildPhases = (
+				DAF536E92821B88500660DFB /* Sources */,
+				DAF536EA2821B88500660DFB /* Frameworks */,
+				DAF536EB2821B88500660DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF536EF2821B88500660DFB /* PBXTargetDependency */,
+			);
+			name = MyStringerTests;
+			productName = MyStringerTests;
+			productReference = DAF536ED2821B88500660DFB /* MyStringerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF536F62821B88500660DFB /* MyStringerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF537072821B88500660DFB /* Build configuration list for PBXNativeTarget "MyStringerUITests" */;
+			buildPhases = (
+				DAF536F32821B88500660DFB /* Sources */,
+				DAF536F42821B88500660DFB /* Frameworks */,
+				DAF536F52821B88500660DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF536F92821B88500660DFB /* PBXTargetDependency */,
+			);
+			name = MyStringerUITests;
+			productName = MyStringerUITests;
+			productReference = DAF536F72821B88500660DFB /* MyStringerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF536CF2821B88400660DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DAF536D62821B88400660DFB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DAF536EC2821B88500660DFB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DAF536D62821B88400660DFB;
+					};
+					DAF536F62821B88500660DFB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = DAF536D62821B88400660DFB;
+					};
+				};
+			};
+			buildConfigurationList = DAF536D22821B88400660DFB /* Build configuration list for PBXProject "MyStringer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF536CE2821B88400660DFB;
+			productRefGroup = DAF536D82821B88400660DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF536D62821B88400660DFB /* MyStringer */,
+				DAF536EC2821B88500660DFB /* MyStringerTests */,
+				DAF536F62821B88500660DFB /* MyStringerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF536D52821B88400660DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF536E72821B88500660DFB /* LaunchScreen.storyboard in Resources */,
+				DAF536E42821B88500660DFB /* Assets.xcassets in Resources */,
+				DAF536E22821B88400660DFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF536EB2821B88500660DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF536F52821B88500660DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF536D32821B88400660DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF536DF2821B88400660DFB /* ViewController.swift in Sources */,
+				DAF536DB2821B88400660DFB /* AppDelegate.swift in Sources */,
+				DAF536DD2821B88400660DFB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF536E92821B88500660DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF536F22821B88500660DFB /* MyStringerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF536F32821B88500660DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF536FE2821B88500660DFB /* MyStringerUITestsLaunchTests.swift in Sources */,
+				DAF536FC2821B88500660DFB /* MyStringerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF536EF2821B88500660DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF536D62821B88400660DFB /* MyStringer */;
+			targetProxy = DAF536EE2821B88500660DFB /* PBXContainerItemProxy */;
+		};
+		DAF536F92821B88500660DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF536D62821B88400660DFB /* MyStringer */;
+			targetProxy = DAF536F82821B88500660DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF536E02821B88400660DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF536E12821B88400660DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF536E52821B88500660DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF536E62821B88500660DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF536FF2821B88500660DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF537002821B88500660DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF537022821B88500660DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyStringer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twoodby.MyStringer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF537032821B88500660DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyStringer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twoodby.MyStringer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAF537052821B88500660DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twoodby.MyStringerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStringer.app/MyStringer";
+			};
+			name = Debug;
+		};
+		DAF537062821B88500660DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twoodby.MyStringerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStringer.app/MyStringer";
+			};
+			name = Release;
+		};
+		DAF537082821B88500660DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twoodby.MyStringerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyStringer;
+			};
+			name = Debug;
+		};
+		DAF537092821B88500660DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twoodby.MyStringerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyStringer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF536D22821B88400660DFB /* Build configuration list for PBXProject "MyStringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF536FF2821B88500660DFB /* Debug */,
+				DAF537002821B88500660DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF537012821B88500660DFB /* Build configuration list for PBXNativeTarget "MyStringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF537022821B88500660DFB /* Debug */,
+				DAF537032821B88500660DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF537042821B88500660DFB /* Build configuration list for PBXNativeTarget "MyStringerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF537052821B88500660DFB /* Debug */,
+				DAF537062821B88500660DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF537072821B88500660DFB /* Build configuration list for PBXNativeTarget "MyStringerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF537082821B88500660DFB /* Debug */,
+				DAF537092821B88500660DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF536CF2821B88400660DFB /* Project object */;
+}
